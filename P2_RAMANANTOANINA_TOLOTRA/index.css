@@ -1,0 +1,155 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h5{
+    font-weight:bold;
+}
+h1 {
+    padding: 1% 0 0 0;
+}
+h2 {
+    padding: 0 0 1% 0;
+    font-weight: inherit !important;
+}
+h3 {
+    padding: 10px;
+    margin: 20px 20px;
+    background-color: white;
+}
+h4 {
+    padding: 15px 0;
+    margin: 10px 0;
+    background-color: #B9D6D6;
+    text-align: center;
+}
+h5{
+    margin-top:10px;
+}
+p {
+    margin-bottom: 0;
+    text-align:justify;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+a:hover{
+    opacity:0.5;
+}
+.row{
+    margin: 0;
+}
+
+/*Aligner le paragraphe de social container et du header au cnetre*/
+header p, .social-container p {
+    text-align: center !important;
+    margin-top:50px;
+}
+
+/*Sidebar Template*/
+.sidebar{
+    background-color: #E3E3E3;
+    padding:10px;
+}
+.sidebar > p{
+    margin-bottom:20px;
+}
+/*Harmonisation des tailles des photos de profils*/
+.profile > img {
+    margin: 20px 0;
+    width: 200px;
+    border-radius:50%;
+   
+}
+.profile2 > img {
+    margin: 20px 0;
+    width: 200px;
+    height: 208px;
+    border-radius: 50%;
+}
+.profile3 > img {
+    margin: 20px 0;
+    width: 200px;
+    height: 208px;
+    border-radius: 50%;
+}
+.profile4 > img {
+    margin: 20px 0;
+    width: 200px;
+    height: 208px;
+    border-radius: 50%;
+}
+
+
+/*Coordonnees Template*/
+/*Placer les logos à gauche et le texte à droite*/
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contact-container {
+    display: flex;
+}
+/*Redimensionner les logos dans la sidebar*/
+td>img, td>a>img,.social-container img{
+    width:30px;
+}
+
+/*Skills Template*/
+/*Redimensionner les logos de langages informatiques*/
+.hardskills-back{
+    width:11%;
+}
+.hardskills-serveur{
+    width:18%;
+}
+.hardskills-web{
+    width:13%;
+}
+
+/*Langues Template*/
+/*Espacer les cellules de la table dans la catégorie Langues*/
+td {
+    padding: 10px 10px 10px 0;
+    text-align:left;
+}
+
+/*Body Template*/
+/*Aligner le body au centre du container*/
+.body-container{
+    padding:0 50px;
+}
+
+
+/*Header Template*/
+header {
+    background-color: #B9D6D6;
+    color:white;
+}
+header > p{
+    font-size:150%;
+}
+
+/*Mis en page de la catégorie web dev dans formations*/
+.school-sbj {
+    display: flex;
+    align-items:center;
+}
+.school-sbj > p {
+    width:120px;
+    border-radius:50%;
+    margin:0 10px 10px 10px;
+    text-align:center;
+}
+.grey-circle {
+    padding: 35px 0;
+    background-color: #E3E3E3;
+}
+.blue-circle {
+    padding: 47px 0;
+    background-color: #B9D6D6;
+}
+
+
