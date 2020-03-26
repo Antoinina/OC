@@ -45,38 +45,38 @@
         <div class="sidebar col-md-3 text-center h-auto">
             <div class="carousel slide carousel-fade" data-ride="carousel">
                 <div class="carousel-inner">
-                    <div class="carousel-item  profile active" data-interval="2000">
-                        <img class="d-block mx-auto" src="assets/profile.jpg" alt="Profile image" />
+                    <div class="carousel-item  profile active" data-interval="2000" itemscope itemtype="http://schema.org/Person">
+                        <img itemprop="logo" class="d-block mx-auto" src="assets/profile.jpg" alt="Profile image" />
                     </div>
-                    <div class="carousel-item profile2 " data-interval="2000">
-                        <img class="d-block mx-auto" src="assets/profile2.jpg" alt="Profile image" />
+                    <div class="carousel-item profile2 " data-interval="2000" itemscope itemtype="http://schema.org/Person">
+                        <img itemprop="logo" class="d-block mx-auto" src="assets/profile2.jpg" alt="Profile image" />
                     </div>
-                    <div class="carousel-item profile3" data-interval="2000">
-                        <img class="d-block mx-auto" src="assets/profile3.jpg" alt="Profile image" />
+                    <div class="carousel-item profile3" data-interval="2000" itemscope itemtype="http://schema.org/Person">
+                        <img itemprop="logo" class="d-block mx-auto" src="assets/profile3.jpg" alt="Profile image" />
                     </div>
-                    <div class="carousel-item profile4" data-interval="2000">
-                        <img class="d-block mx-auto" src="assets/profile4.jpg" alt="Profile image" />
+                    <div class="carousel-item profile4" data-interval="2000" itemscope itemtype="http://schema.org/Person">
+                        <img itemprop="logo" class="d-block mx-auto" src="assets/profile4.jpg" alt="Profile image" />
                     </div>
                 </div>
             </div>
 
             <h3>COORDONNEES</h3>
             <div class="contact-container">
-                <table>
+                <table class="table-responsive table-hover" itemtype="http://schema.org/Person">
                     <tr>
-                        <td><a href="mailto:tolotra.ramanantoanina@gmail.com"><img src="assets/mail.png" alt="Logo d'une enveloppe" /></a></td>
+                        <td><a itemprop="email" href="mailto:tolotra.ramanantoanina@gmail.com"><img itemprop="logo" src="assets/mail.png" alt="Logo d'une enveloppe" /></a></td>
                         <td>tolotra.ramanantoanina@gmail.com</td>
                     </tr>
                     <tr>
-                        <td><img src="assets/portable.png" alt="Logo d'un portable" /></td>
-                        <td>+33 (0) 6 08 03 94 97</td>
+                        <td><img itemprop="logo" src="assets/portable.png" alt="Logo d'un portable" /></td>
+                        <td itemprop="telephone">+33 (0) 6 08 03 94 97</td>
                     </tr>
                     <tr>
-                        <td><a href="https://goo.gl/maps/j9u7EJQP9zZvyieSA"><img src="assets/maison.png" alt="Logo d'une maisont" /></a></td>
-                        <td>282 Avenue des Grésillons <br> 92600 Asnières sur Seine</td>
+                        <td><a itemprop="map" href="https://goo.gl/maps/j9u7EJQP9zZvyieSA"><img src="assets/maison.png" alt="Logo d'une maisont" /></a></td>
+                        <td itemprop="address"><span itemprop="streetAddress">282 Avenue des Grésillons</span> <br> <span itemprop="postalCode">92600</span> <span itemprop="addressCountry">Asnières sur Seine</span></td>
                     </tr>
                     <tr>
-                        <td><img src="assets/voiture.png" alt="Logo d'une voiture" /></td>
+                        <td><img itemprop="logo" src="assets/voiture.png" alt="Logo d'une voiture" /></td>
                         <td>Permis B - Véhiculé</td>
                     </tr>
                 </table>
@@ -97,26 +97,26 @@
 
                 -->
             </div>
-            <div class="social-container">
+            <div class="social-container" itemscope itemtype="https://schema.org/SocialMediaPosting">
                 <p>Réseaux sociaux</p>
-                <a href="https://www.linkedin.com/in/tolotraramanantoanina/"><img src="assets/linkedin.png" alt="Logo LinkedIn" /></a> <a href="https://www.facebook.com/ramatra"><img src="assets/facebook.png" alt="Logo Facebook" /></a>
+                <a itemprop="sharedContent" href="https://www.linkedin.com/in/tolotraramanantoanina/"><img itemprop="logo" src="assets/linkedin.png" alt="Logo LinkedIn" /></a> <a itemprop="sharedContent" href="https://www.facebook.com/ramatra"><img itemprop="logo" src="assets/facebook.png" alt="Logo Facebook" /></a>
             </div>
             <h3>SKILLS</h3>
-            <p>Hard : <img class="hardskills-web" src="assets/weblogo.png" alt="Web Logo" /> <img class="hardskills-serveur" src="assets/php.png" alt="Logo php" /> <img class="hardskills-serveur" src="assets/mysql.png" alt="Logo mysql" /> <img class="hardskills-back" src="assets/c.png" alt="Logo C" /> <img class="hardskills-back" src="assets/python.png" alt="Logo Python" /></p>
-            <p>CMS : Wix - Wordpress</p>
+            <p itemscope itemtype="https://schema.org/JobPosting">Hard : <img itemprop="skills" class="hardskills-web" src="assets/weblogo.png" alt="Web Logo" /> <img itemprop="skills"  class="hardskills-serveur" src="assets/php.png" alt="Logo php" /> <img itemprop="skills"  class="hardskills-serveur" src="assets/mysql.png" alt="Logo mysql" /> <img itemprop="skills"  class="hardskills-back" src="assets/c.png" alt="Logo C" /> <img itemprop="skills"  class="hardskills-back" src="assets/python.png" alt="Logo Python" /></p>
+            <p itemscope itemtype="https://schema.org/JobPosting">CMS : <span itemprop="educationRequirements">Wix - Wordpress</span></p>
             <p>Pack Office</p>
             <h3>LANGUES</h3>
-            <table>
+            <table itemscope itemtype="http://schema.org/Person">
                 <tr>
-                    <td>Anglais</td>
+                    <td itemprop="knowsLanguage">Anglais</td>
                     <td>TOEIC: 715 - Niveau intermédiaire</td>
                 </tr>
                 <tr>
-                    <td>Espagnol</td>
+                    <td itemprop="knowsLanguage">Espagnol</td>
                     <td>Niveau intermédiaire</td>
                 </tr>
                 <tr>
-                    <td>Malagasy</td>
+                    <td itemprop="knowsLanguage">Malagasy</td>
                     <td>Langue maternelle</td>
                 </tr>
             </table>
@@ -127,42 +127,42 @@
         </div>
 
         <!-- Second container -->
-        <div class="body-container col-md-9">
-            <header>
-                <h1 class="display-4 text-center">DEVELOPPEUR WEB JUNIOR</h1>
-                <h2 class="display-6 text-center">Tolotra RAMANANTOANINA</h2>
+        <div class="body-container col-md-9 no-nuggets">
+            <header itemscope itemtype="http://schema.org/Person">
+                <h1 itemprop="jobTitle" class="display-4 text-center">DEVELOPPEUR WEB JUNIOR</h1>
+                <h2 itemprop="name" class="display-6 text-center">Tolotra RAMANANTOANINA</h2>
                 <p class="font-italic">Disponible de suite</p>
             </header>
-            <div>
+            <div itemscope itemtype="https://schema.org/Occupation">
                 <h4>DESCRIPTION</h4>
-                <p>Toute difficulté peut être surmontée par l'agilité couplée à la créativité. C'est là mon leitmotiv pour laisser mon empreinte digitale</p>
+                <p itemprop="description">Toute difficulté peut être surmontée par l'agilité couplée à la créativité. C'est là mon leitmotiv pour laisser mon empreinte digitale</p>
                 <h4>EXPERIENCES PROFESSIONNELLES</h4>
                 <ul>
                     <li>
-                        <h5>GESTION DE PROJET : CREATION D'UNE ENTREPRISE DE COMMUNICATION</h5>
+                        <h5 itemprop="jobTitle">GESTION DE PROJET : CREATION D'UNE ENTREPRISE DE COMMUNICATION</h5>
                         <p>EFREI PARIS | Décembre 2019 - Janvier 2020</p>
-                        <p>Gestion d'un projet client: de l'idée à la conception</p>
-                        <p>Rôle: Assistant Chef de Projet et Responsable technique </p>
+                        <p itemprop="description">Gestion d'un projet client: de l'idée à la conception</p>
+                        <p itemprop="responsabilities">Rôle: Assistant Chef de Projet et Responsable technique </p>
                         <p>Compétences acquises: gestion de projet en mode AGILE, Création d'un site web en utilisant un <strong>CMS</strong> (WIX - Wordpress)</p>
-                        <p>Langages utilisés: Html, CSS </p>
-                        <p>Outils: Atom, <strong>Wix</strong>, <strong>Wordpress</strong></p>
+                        <p>Langages utilisés: <span itemprop="skills">Html, CSS</span> </p>
+                        <p>Outils: Atom, <strong>Wix</strong>, <strong itemprop="skills">Wordpress</strong></p>
 
                     </li>
                     <li>
-                        <h5>GESTION DE PROJET : CREATION D'UN SITE WEB</h5>
+                        <h5 itemprop="jobTitle">GESTION DE PROJET : CREATION D'UN SITE WEB</h5>
                         <p>EFREI | Décembre 2018</p>
-                        <p>Projet tutoré: Réaliser un algorithme en utilisant les arbres en C </p>
-                        <p>Compétences acquises: Création d'un <strong>site web</strong> en réseau local, Conception d'un algorithme de calcul en Python</p>
-                        <p>Langages utilisés: Python, <strong>Html</strong>, <strong>CSS</strong></p>
+                        <p itemprop="description">Projet tutoré: Réaliser un algorithme en utilisant les arbres en C </p>
+                        <p itemprop="responsabilities">Compétences acquises: Création d'un <strong>site web</strong> en réseau local, Conception d'un algorithme de calcul en Python</p>
+                        <p itemprop="educationRequirements">Langages utilisés: <span itemprop="skills">Python</span>, <strong itemprop="skills">Html</strong>, <strong itemprop="skills">CSS</strong></p>
                         <p>Outil: Framework Django</p>
                     </li>
                 </ul>
                 <h4>FORMATIONS</h4>
-                <ul>
+                <ul itemscope itemtype="https://schema.org/EducationalOccupationalCredential">
                     <li>
                         <h5>DEVELOPPEUR WEB - FORMATION OPENCLASSROOMS <span class="badge badge-warning">En cours!</span></h5>
-                        <p>2020 Bac+2 - Diplôme RNCP Niveau V</p>
-                        <div class="school-sbj overflow-auto">
+                        <p itemprop="credentialCategory"><span itemprop="validFor">2020</span> Bac+2 - Diplôme RNCP Niveau V</p>
+                        <div itemprop="skills" class="school-sbj overflow-auto">
                             <p class="blue-circle">JAVASCRIPT</p>
                             <p class="grey-circle">RESPONSIVE DESIGN</p>
                             <p class="blue-circle">HTML5/CSS3</p>
@@ -171,17 +171,17 @@
                         </div>
                     </li>
                     <li>
-                        <h5>CHEF DE PROJET DIGITAL - FORMATION OPENCLASSROOMS</h5>
-                        <p>Août 2019 -Octobre 2019</p>
-                        <p>Hard skills: <strong>HTML</strong>, <strong>CSS</strong>, <strong>PHP</strong>, <strong>MySQL</strong>, Suite <strong>ADOBE</strong>, <strong>AGILE</strong></p>
+                        <h5>CHEF DE PROJET DIGITAL - FORMATION <span itemprop="legalName">OPENCLASSROOMS</span></h5>
+                        <p itemprop="validFor">Août 2019 -Octobre 2019</p>
+                        <p itemprop="skills">Hard skills: <strong>HTML</strong>, <strong>CSS</strong>, <strong>PHP</strong>, <strong>MySQL</strong>, Suite <strong>ADOBE</strong>, <strong>AGILE</strong></p>
                         <p>Projets réalisés: CV en dur/ CMS, Landing Page sur Coach Personnel, Portofolio photographe</p>
                     </li>
                     <li>
-                        <h5>ECOLE D'INGENIEUR EFREI PARIS</h5>
+                        <h5 itemprop="legalName">ECOLE D'INGENIEUR EFREI PARIS</h5>
                         <p>2017-2019  1ère et 2ème année du Cycle préparatoire intégré </p>
                     </li>
                     <li>
-                        <h5>UFR PARIS DESCARTES</h5>
+                        <h5 itemprop="legalName">UFR PARIS DESCARTES</h5>
                         <p>2014-2017 Licence Sciences Fondamentales et Biomédicales </p>
                         <p>2011-2013 Première Année Communes Aux Etudes de Santé</p>
                     </li>
